@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return jsonify({"message": "Hello world!"})
+    return jsonify({"message": "Hello world! CI/CD check"})
 
 
 #    print('Request for index page received')
